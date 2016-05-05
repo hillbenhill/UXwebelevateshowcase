@@ -20,6 +20,9 @@ hr {
 hr.light {
   border-color: white;
 }
+hr.Haven{
+border-color: #f05f40;
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -42,6 +45,15 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+haven{
+color:#07C0A1;
+}
+.menu_box {
+      background-color: #07C0A1;
+      padding: 2px;
+      color: #f05f40;
+      opacity: .9;
 }
 .bg-primary {
   background-color: #07C0A1;
@@ -401,4 +413,52 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+@import "compass/css3";
+
+.page {
+  padding: 15px 0px 0px;
+}
+
+.modalButton {
+  display: block;
+  margin: 15px auto;
+  padding: 5px 15px;
+}
+
+.modal-dialog {
+  
+  .close-button {
+    overflow: hidden;
+    
+    button.close {
+      font-size: 30px;
+      line-height: 30px;
+      padding: 7px 4px 7px 13px;
+      @include text-shadow(none);
+      @include opacity(.7);
+      color:#fff;
+
+      span {
+        display: block;
+      }
+      
+      &:hover,
+      &:focus {
+        @include opacity(1);
+        outline: none;
+      }
+    }
+  }
+  
+  .modal-content {
+    box-shadow: none;
+    background-color: transparent;
+    border: 0;
+    
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }

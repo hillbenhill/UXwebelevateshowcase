@@ -62,24 +62,37 @@ W3.CSS Modal Login
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class=" dropdown collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About Us</a>
+                        <a class="page-scroll" href="#about">Team</a>
                     </li>
+				<li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Menu<b class="caret"></b></a>
+                    <ul role="menu" class="menu_box dropdown-menu">
+                        <li><a href="#What_The_Product_is">What The Product Is</a></li>
+                        <li><a href="#Who_Will_Use_it">Who Will Use It</a></li>
+						<li><a href="#How_Will_They_use_it">How Will They Use It</a></li>
+                        <li><a href="#Product_design">The Product Design</a></li>
+						<li class="divider"></li>
+                        <li><a class="page-scroll" href="#services">Site Index</a></li>
+						<li><a class="page-scroll" href="#services">Appendix</a></li>
+						<li><a class="page-scroll" href="#page-top">Home</a></li>
+
+                    </ul>
+                </li>
+									
                     <li>
-                        <a class="page-scroll" href="#services">Site Map</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Gallery</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    </li>			
 					<li>
 					<button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-green w3-large">Login</button>
 					</li>
-                </ul>
+                </ul>				
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -89,10 +102,7 @@ W3.CSS Modal Login
     <header>
         <div class="header-content">
             <div class="header-content-inner">	 
-				<a href="#services" class=" page-scroll btn btn-default btn-xl">Find out More</a>
-               <hr class = "light">
 				
-				<hr class = "light">
             </div>
         </div>
     </header>
@@ -156,9 +166,9 @@ As a PM on Haven, I have been involved in most aspects of the project cycle, fro
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Haven by Team 37</h2>
-                    <hr class="primary">
-                </div>
+                    <h2 class="section-heading"><u>Haven by Team 37</u></h2>   
+                </div >
+				
             </div>
         </div>
         <div class="container">
@@ -166,48 +176,49 @@ As a PM on Haven, I have been involved in most aspects of the project cycle, fro
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-binoculars wow bounceIn text-primary"></i>
-                        <h3>What the product is</h3>
+                        <h3><u>What The Product Is</u></h3>
                         <ul class="text-muted">
-						<li>Product Name</li>
-						<li>Overview</li>
-						<li>Product Definition</li>
-						<li>Product Video</li>
-						<li>More about creators</li>
+						
+						<li><a class="page-scroll" href="#prod_name">Product Name</a></li>
+						<li><a class="page-scroll" href="#overview">Overview</li></a>
+						<li><a class="page-scroll" href="#Product_defin">Product Definition</a></li>
+						<li><a class="page-scroll" href="#prod_video">Product Video</a></li>
+						<li><a class="page-scroll" href="#about">More about creators</a></li>
 						</ul>
                     </div>
                 </div>
 				<div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-camera-retro bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>The product design image</h3>
+                        <h3><u>The Product Design</u></h3>
                         <ul class="text-muted">
-						<li>Structure maps</li>
-						<li>Wireframes</li>
-						<li>Storyboards</li>
-						<li>State Transition diagrams image</li>
-						<li>Behaviour diagrams</li>
+						<li><a class="page-scroll" href="#">Structure maps</a></li>
+						<li><a class="page-scroll" href="#">Wireframes</a></li>
+						<li><a class="page-scroll" href="#">Storyboards</a></li>
+						<li><a class="page-scroll" href="#">State Transition diagrams</a></li>
+						<li><a class="page-scroll" href="#">Behaviour diagrams</a></li>
 						</ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-bullhorn wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Who will use it</h3>
+                        <h3><u>Who Will Use It</u></h3>
                         <ul class="text-muted">
-							<li>Intro - Research and results</li>
-							<li>Personas</li>
-							<li>Scenarios</li>
+							<li><a class="page-scroll" href="#">Research and results</a></li>
+							<li><a class="page-scroll" href="#">Personas</a></li>
+							<li><a class="page-scroll" href="#">Scenarios</a></li>
 							</ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>How they will use it</h3>
+                        <h3><u>How They Will Use It</u></h3>
                         <ul class="text-muted">
-						<li>Use Case Diagrams</li>
-						<li>Use Cases</li>
-						<li>Task Cases</li>
+						<li><a class="page-scroll" href="#">Use Case Diagrams</a></li>
+						<li><a class="page-scroll" href="#">Use Cases</a></li>
+						<li><a class="page-scroll" href="#">Task Cases</a></li>
 						</ul>
                     </div>
                 </div>
@@ -312,6 +323,235 @@ As a PM on Haven, I have been involved in most aspects of the project cycle, fro
             </div>
         </div>
     </section>
+	
+	<!-- what the product is -->
+	<section id="What_The_Product_is">
+        <div class="container">
+		<aside class="bg-primary">
+			<div class="container text-center">
+				<div class="call-to-action">
+					<i class="fa fa-binoculars fa-3x wow bounceIn"></i>
+                    <h2 id = "prod_name"class="section-heading"><u>1 What The Product Is</u> </h2>
+                
+				</div>
+			</div>
+		</aside>
+            <div class="row">
+                <div class="col-lg-8">				
+                </div>
+                <div class="col-lg-4 col-lg-offset-3 ">
+                    <h2 class = "section-heading" >Product Name - <strong>Haven</strong></h2>                
+                </div>
+            </div>
+			<div class = "row">
+			<div class="col-lg-4 col-lg-offset-3 ">
+                    <aside class="bg-primary"><h3 id = "overview"class = "section-heading"><u>Haven Concept Overview</u></h3>
+					</aside>
+                </div>
+                <div class="col-lg-4">                  
+                   
+<p>With the rapid population ageing that is occurring world-wide, there is increasing interest in “smart home” technologies 
+that can assist older adults to continue living at home with safety and independence.</p>
+
+<p>Improved health and social care over recent years has increased life expectancy worldwide. As a result, in 2010 an 
+estimated 524 million people were aged 65 or older - 8% of the world’s. By 2050, this number is expected to nearly 
+triple to about 1.5 billion, representing 16% of the world’s population.</p>
+
+
+<p>The current trends in population demographics make it increasingly difficult for governments worldwide to 
+fully support the health and social care systems. Therefore, a large proportion of older adults rely solely on family 
+members for assisted care, often resulting in great emotional stress for family caregivers.</P>
+
+<p>As Diane Cook, lead researcher of Washington State University’s “Smart Home Projects” describes, “Individuals don’t want to 
+leave their home even if they live in a rural area and don’t have easy access to healthcare and family members. They still 
+will not leave their family home. Studies show that when they do – particularly against their will – that move is often 
+followed by cognitive and physical decline and death”.</p>
+
+<p>Smart-homes are purpose designed living spaces that provide interactive technologies and unobtrusive support systems to 
+enable people to enjoy a higher level of independence, activity,  participation or well-being than would otherwise be 
+available. With these home based technologies there is potential for a person to live in 
+their own home without the need to be hospitalised or institutionalised. Empowering the elderly to live 
+independently instead of in an adult care facility not only provides financial savings, it also has the 
+potential to improve quality of life, reduce the strain on aged care facilities, and provide relief for family caregivers.</p>
+
+<p>However, we need a more viable and scalable solution to meet this demand. Enter a new wave of smart home technology known as 
+“assistive domotics”.</p>
+
+<p>Assistive domotics is an application of home automation that focuses on enabling elderly or disabled people to live at 
+their home instead of a nursing home or similar healthcare facility. These products use sensors (eg: Bluetooth) to track 
+movements in the home, or lack thereof, of the relevant resident. Sensors can be placed on any item, including doors, 
+keychains, and even pillboxes. GPS technology documents precise location information of the person, logs activity, and 
+reports it to a family member living somewhere else. Haven aims to harness all these available features and more. 
+By using assistive domotics, some of the principal benefits Haven could provide to help independent living for the 
+elderly are:
+<ul>
+<li>Emergency Response</li>
+<li>Eyesight and hearing</li>
+<li>Memory</ol>
+<li>Video/Audio monitoring</li>
+<li>Medication Assistance</li>
+</ul></p>
+
+<p>In addition to these immediate benefits to the resident, this type of technology provides support to those in the 
+“sandwich generation,” a term coined for those simultaneously supporting aging parents and their children.</p>
+	
+					</p>			
+	
+                </div>		
+			</div>
+			<div class = "row">
+				<div id = "Product_defin" class="col-lg-4 col-lg-offset-3 ">
+                    
+					
+					<aside class="bg-primary"><h2 ><u>Product Definition</u></h2>  </aside>
+					<p><strong>Haven </strong>is aimed at family, carers and medical professionals of the elderly or 
+				disabled people who wish to live in their home safely and independently for as long as possible. <br>
+				By utilising assistive domotics such as wearable tech and sensors, Haven will record an individual’s body 
+				readings and track their activities inside and outside the house.<br> The carers will be able to unobtrusively 
+				follow a person’s daily routine by reading simple time line charts accessible via website or downloadable 
+				applications for tablets and smartphones. <br>Currently we believe there is a lack of appropriate applications
+				for tablets, smartphones and systems which avail of smart home technology to 
+				monitor and care for the vulnerable who wish to remain in their home.
+				<p><strong>Assistive Domotics:</Strong>  A form of home automation which focuses on making it possible 
+				   for older adults and people with disabilities to remain at home, safe and comfortable.
+				   <br> Futher development is needed in this area to help
+				address the currrent burden on under resourced health services and gowth in ageing populations.</p>
+                </div>
+			</div><!-- row -->
+<div class="container text-center">
+<aside class = "bg-primary">
+        <div class="row">
+        <div id = "prod_video"class="col-lg-4 col-lg-offset-3 col-xs-12">
+			<h2 ><u>Product Video</u></h2>
+          <div class="page">
+			<p> Click to see walk though of a product prototype key use case and an intiduction from the <strong>
+			Haven</strong>team members</p>
+			<i class="fa fa-4x fa-binoculars wow bounceIn"></i>
+			<button type="button" class="modalButton" data-toggle="modal" data-src="https://player.vimeo.com/video/87701971" data-width="500" data-height="281" data-target="#myModal" data-video-fullscreen="">Video</button>
+		</div>
+        </div>
+      </div>
+</aside>	  
+</div>
+      
+<footer>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">          
+				  <div class="close-button">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span></button>
+				  </div>
+				  <div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" frameborder="0"></iframe>
+				  </div>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+</footer>
+        </div><!-- end section 1 What prodoct is constianer-->
+    </section>
+	<!-- end what the product is -->
+	<!-- who will use it -->
+	<section id="Who_Will_Use_it">
+        <div class="container">
+		<aside class="bg-primary">
+			<div class="container text-center">
+				<div class="call-to-action">
+					<i class="fa fa-4x fa-bullhorn wow bounceIn"></i>
+                    <h2 class="section-heading">2 Who Will Use It  </h2>             
+				</div>
+			</div>
+		</aside>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-3 ">
+                    <h2>Personas</h2>                
+                </div>
+            </div>
+			<div class = "row">
+				<div class="col-lg-4 col-lg-offset-3 ">
+                    <h2>Senarios</h2>                
+                </div>		
+			</div>
+        </div>
+    </section>
+	<!-- end who will use it -->
+	<!-- How will they use it -->
+	<section id="How_Will_They_use_it">
+        <div class="container">
+		<aside class="bg-primary">
+			<div class="container text-center">
+				<div class="call-to-action">
+					<i class="fa fa-4x fa-newspaper-o wow bounceIn "></i>
+                    <h2 class="section-heading">3 How they wll use it   </h2>           
+				</div>
+			</div>
+		</aside>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-3 ">
+                    <h2>Use Case</h2> 							
+                </div>
+				<div class="col-lg-4 col-lg-offset-3 ">
+                    <h2>Use Case Diagrams</h2> 							
+                </div>
+            </div>
+			<div class = "row">
+				<div class="col-lg-4 col-lg-offset-3 ">
+					<h2>Task Cases</h2>                             
+                </div>              
+			</div>
+        </div>
+    </section>
+	<!-- End How will they use it -->
+		<!-- The Product design-->
+	<section id="Product_design">
+       <div class="container">
+		<aside class="bg-primary">
+			<div class="container text-center">
+				<div class="call-to-action">
+					<i class="fa fa-4x fa-camera-retro bounceIn "></i>
+                    <h2 class="section-heading">4 The Product Design</h2>               
+				</div>
+			</div>
+		</aside>
+            <div class="row">              
+                <div class="col-lg-4 col-lg-offset-3 ">
+                    <h3 class = "section-heading"> Structure Maps</h3>                
+                </div>
+            </div>
+			Storyboards
+			State Transition diagrams
+			Behaviour diagrams
+			<div class = "row">
+				<div class="col-lg-4 col-lg-offset-3 ">
+                    <h3 class = "section-heading">Wireframes</h3>          
+                </div>
+			</div>
+			<div class = "row">
+				<div class="col-lg-4 col-lg-offset-3 ">
+                    <h3 class = "section-heading">Storyboards</h3>    
+                </div>
+			</div>	
+			<div class = "row">
+				<div class="col-lg-4 col-lg-offset-3 ">
+                    <h3 class = "section-heading">State Transition diagrams</h3> 
+                </div>
+			</div>
+			<div class = "row">
+				<div class="col-lg-4 col-lg-offset-3 ">
+                    <h3 class = "section-heading">Behavoiur diagrams</h3> 
+                </div>
+			</div>
+                <div class="col-lg-4">                  
+                 	
+                </div>
+			
+			</div>
+        </div>
+    </section>
+	<!-- end The product design -->
 
     <aside class="bg-dark">
         <div class="container text-center">
@@ -321,6 +561,7 @@ As a PM on Haven, I have been involved in most aspects of the project cycle, fro
             </div>
         </div>
     </aside>
+	
 
     <section id="contact">
         <div class="container">
@@ -386,6 +627,40 @@ As a PM on Haven, I have been involved in most aspects of the project cycle, fro
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+	<!-- Video Script Iframe ref filippoq full screen option -->
+	<script> ( function($) {
+  
+function iframeModalOpen(){
+
+		// impostiamo gli attributi da aggiungere all'iframe es: data-src andrà ad impostare l'url dell'iframe
+		$('.modalButton').on('click', function(e) {
+			var src = $(this).attr('data-src');
+			var width = $(this).attr('data-width') || 640; // larghezza dell'iframe se non impostato usa 640
+			var height = $(this).attr('data-height') || 360; // altezza dell'iframe se non impostato usa 360
+
+			var allowfullscreen = $(this).attr('data-video-fullscreen'); // impostiamo sul bottone l'attributo allowfullscreen se è un video per permettere di passare alla modalità tutto schermo
+			
+			// stampiamo i nostri dati nell'iframe
+			$("#myModal iframe").attr({
+				'src': src,
+				'height': height,
+				'width': width,
+				'allowfullscreen':''
+			});
+		});
+
+		// se si chiude la modale resettiamo i dati dell'iframe per impedire ad un video di continuare a riprodursi anche quando la modale è chiusa
+		$('#myModal').on('hidden.bs.modal', function(){
+			$(this).find('iframe').html("");
+			$(this).find('iframe').attr("src", "");
+		});
+	}
+  
+  $(document).ready(function(){
+		iframeModalOpen();
+  });
+  
+  } ) ( jQuery ); </script>
 
 </body>
 
