@@ -1,0 +1,46 @@
+<div class = "row">
+					<div class="col-xs-12 col-sm-12">
+					<h2 >Senario</h2>
+					<h4>Why did we pick the scenarios we did?</h4>
+<p>Illustrates the persona’s use of the reports system.<br>
+Persona achieves the goal of a quick assessment and a hand over of information to a community GP.<br></p>
+                    <h2><u>Mary's' Scenario</u></h2> 
+<p>Mary the community nurse – part of her regular rounds it looking after some of the residents living in sheltered 
+accommodation.<br> When on duty she logs into the patient monitoring dashboard and is updated with the health screening 
+charts of her patients. One of the elderly residents has diabetes, hypertension and arrhythmia.<br>
+Upon login she is able pull up the patient's chart for the past week.<br> If consistent readings are outside of normal, 
+an alert is generated and flagged with the current logged in user. <br>Mary gets an alert and can see that the patient in 
+question is showing very high blood pressure and poor control of blood glucose over the last 48-72 hours. 
+She moves the case review into her high priority todo list for her daily rounds.<br>  
+Upon seeing the patient she is able to take a blood pressure reading and review the level of compliance with the 
+diabetes intervention regime.<br>  Mary updates the patient’s data on the system and marks the task off as done.<br> 
+With the data and the physical review Mary is able to make a judgment.<br>  Follow up with a doctor’s visit to investigate
+ further or call in the emergency services.<br> The Gp will be sent an alert as part of the community team, assigned a follow 
+ up call and view supporting data on the system.<br>
+The system enables the community nursing team prioritise patient care based on a dynamic personalised need basis. <br></p>
+					</div>
+			</div>
+			
+			<div class = "row">
+					<div class="col-xs-12 col-sm-12">
+                    <h2><u>Persona</u></h2> 
+					<img class="img-responsive img-circle" src="img/Personas/Sigfrid López 5.png" />
+<ul>
+<li>Name: Mary Kenny</li>
+Age: 42</li>
+<li>Occupation: District Nurse</li>
+<li>Interests: Scout leading and singing</li>
+<li>Education – Bsc / Msc Nurse with many users experience in cardiac care and community nursing</li>
+<li>Role - Part time private GP practice nurse and hospital / HSE district nurse.</li>
+<li>Social- Mary is single and has no children</li>
+</ul>
+<p>Mary works part-time in a rural GP practice nurse and works for the HSE on the community nursing team, supporting elderly outpatients with secondary care interventions, for example IV antibiotics.<br>
+The patients are well enough to be cared for in a home setting. <br>
+Mary covers a large area focusing on 3 -4 patients during her part-time shift. 
+Some of the patients require multiple visits during the same day.<br>
+IT Skills – Mary is very computer literate, she undertook a part-time masters in community and occupational health. <br>
+This was via distance learning using Moodle and various social media for collaboration.<br>
+  Has a smart phone and uses it to consume media and various apps.</p>
+
+					</div>
+			</div>
