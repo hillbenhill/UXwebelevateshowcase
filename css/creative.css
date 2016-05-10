@@ -232,12 +232,14 @@ header .header-content .header-content-inner p {
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  border-style: ridge;
+  border-width: 1px;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: #07C0A1;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -502,7 +504,8 @@ table#miyazaki {
 	background: #333;
 	color: #fff;
 	text-rendering: optimizeLegibility;
-	border-radius: 5px;
+	border-radius: 5px
+	
 }
 table#miyazaki thead th { 
 	font-weight: 600; 
@@ -525,6 +528,8 @@ table#miyazaki tbody tr:not(:last-child) {
 @media screen and (max-width: 600px) {
 	table#miyazaki caption {
 		background-image: none;
+		overflow-x: auto;
+		display: block;
 	}
 	table#miyazaki thead {
 		display: none; 
