@@ -9,18 +9,21 @@ W3.CSS Modal Login
 <html lang="en">
 
 <head>
-
+<title>Haven - Assistive Domotics  </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Haven </title>
+    
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <link rel="stylesheet" href="css/login.css" type="text/css">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
@@ -45,6 +48,10 @@ W3.CSS Modal Login
 </head>
 
 <body id="page-top">
+<script>
+$( "#menu" ).menu();
+</script>
+
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -58,7 +65,7 @@ W3.CSS Modal Login
                     <span class="icon-bar"></span>
                 </button>
 				<a href="#page-top" class=" navbar-brand page-scroll pull-right">
-				<img style="max-width:7em; margin-top: px;"src="img/haven_logo.png">
+				<img style="max-width:7em;"src="img/haven_logo.png">
             </div>
 			</a>
 
@@ -83,23 +90,28 @@ W3.CSS Modal Login
 						<li><a class="page-scroll" href="https://drive.google.com/open?id=0B4gMl0hE11CZUngzcG9yU2wyNXc">Appendix</a></li>
 						<li><a class="page-scroll" href="#page-top">Home</a></li>
                     </ul>
+					
                 </li>
 				<li class = "dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">SiteMap<b class="caret"></b></a>
                     <ul role="menu" class="menu_box dropdown-menu" style = "border-radius: 10px;">
+					
 					<li><a class="page-scroll" href="#prod_name">Product Name</a></li>
 						<li><a class="page-scroll" href="#overview">Overview</li></a>
 						<li><a class="page-scroll" href="#Product_defin">Product Definition</a></li>
 						<li><a class="page-scroll" href="#prod_video">Product Video</a></li>
 						<li><a class="page-scroll" href="#about">More about creators</a></li>
+					
 						<li><a class="page-scroll" href="#Structure_maps">Structure maps</a></li>
 						<li><a class="page-scroll" href="#Wireframes">Wireframes</a></li>
 						<li><a class="page-scroll" href="#Storyboards">Storyboards</a></li>
 						<li><a class="page-scroll" href="#State_Transition_diagrams">State Transition diagrams</a></li>
 						<li><a class="page-scroll" href="#Behaviour_diagrams">Behaviour diagrams</a></li>
+						
 						<li><a class="page-scroll" href="#research">Research and results</a></li>
 							<li><a class="page-scroll" href="#personas">Personas</a></li>
 							<li><a class="page-scroll" href="#scenarios">Scenarios</a></li>
+							
 							<li><a class="page-scroll" href="#Use_Case_Diagrams">Use Case Diagrams</a></li>
 						<li><a class="page-scroll" href="#Use_Cases">Use Cases</a></li>
 						<li><a class="page-scroll" href="#Task_Cases">Task Cases</a></li>
@@ -358,6 +370,7 @@ elderly are:
 			data-height="360" data-target="#myModal" data-video-fullscreen="">
 			<img src="img/videoplay/playvideo.jpg" width="auto" height = "100" 
 			class="img-responsive img-rounded center-block" alt="">
+			<!-- pasword is Haven -->
 			</button>
 		</div>
         </div>

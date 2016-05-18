@@ -6759,7 +6759,5 @@ opacity: .5;
     display: none !important;
   }
 }
-body.modal-open {
-    overflow: visible;
-}
+
 /*# sourceMappingURL=bootstrap.css.map */
